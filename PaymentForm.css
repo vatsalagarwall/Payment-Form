@@ -1,19 +1,19 @@
-*{
-    box-sizing:border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 15px 30px;
-    font-size: 17px;
-    padding: 18px;
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 15px 30px;
+  font-size: 17px;
+  padding: 18px;
 }
 
-.container{
-    background-color: whitesmoke;
-    padding: 5px 20px 15px 20px;
-    border-color: 1px solid lightgray;
-    border-radius: 4px;
+.container {
+  background-color: whitesmoke;
+  padding: 5px 20px 15px 20px;
+  border-color: 1px solid lightgray;
+  border-radius: 4px;
 }
 
 input[type="text"],
@@ -21,43 +21,49 @@ input[type="email"],
 input[type="number"],
 input[type="password"],
 input[type="date"],
-select, fieldset,textarea{
-    width:100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius:4px;
-    margin: 10px;
+select,
+fieldset,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 10px;
 }
 
-.heading{
-    text-align: center;
+.heading {
+  text-align: center;
 }
 
-input[type="submit"]{
-    background-color:rgb(233, 213, 129);
-    color:black;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 4px;
-    cursor:pointer;
-    width: 100%;
-    box-sizing:border-box;
-    width: 200px;
-    text-align: center;
+input[type="submit"] {
+  background-color: rgb(233, 213, 129);
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+  width: 200px;
+  text-align: center;
 }
-input[type="submit"]:hover{
-    background-color: beige;
+input[type="submit"]:hover {
+  background-color: beige;
 }
-h2+p{
-    font-weight:bold;
+h2 + p {
+  font-weight: bold;
 }
-legend{
-    font-weight: bold;
+legend {
+  font-weight: bold;
 }
-fieldset+p {
-    font-weight: bold;
+fieldset + p {
+  font-weight: bold;
 }
 
-.email,.pincode,.cardNumber,.expDate,.cvv{
-    font-weight: bold;
+.email,
+.pincode,
+.cardNumber,
+.expDate,
+.cvv {
+  font-weight: bold;
 }
